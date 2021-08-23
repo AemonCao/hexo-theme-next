@@ -47,16 +47,17 @@ favicon:
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
+# Show multilingual switcher in footer.
+language_switcher: false
+
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
   since: 2017
 
   # Icon between year and copyright info.
   icon:
-    # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
-    # `heart` is recommended with animation in red (#ff0000).
-    name: heart
-    # name: heart
+    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    name: fa fa-heart
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
@@ -207,7 +208,7 @@ social_icons:
 
 # Blog rolls
 links_settings:
-  icon: link
+  icon: fa fa-link
   title: Links
   # Available values: block | inline
   layout: block
@@ -234,7 +235,7 @@ chat:
   enable: false
   # service: chatra
   #service: tidio
-  icon: comment # Icon name in Font Awesome, set false to disable icon.
+  icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
 
@@ -288,10 +289,10 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || twitter
-  # Telegram: https://t.me/Aemon_Cao || telegram
-  #WeChat: /images/wechat_channel.jpg || wechat
-  # RSS: /rrs2.xml || rss
+  #Twitter: https://twitter.com/username || fab fa-twitter
+  #Telegram: https://t.me/Aemon_Cao || fab fa-telegram
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  # RSS: /rrs2.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -714,13 +715,14 @@ cnzz_siteid:
 # Do not enable both `valine.visitor` and `leancloud_visitors`.
 leancloud_visitors:
   enable: false
-  app_id: # <app_id>
-  app_key: # <app_key>
+  app_id: # <your app id>
+  app_key: # <your app key>
+  # Required for apps from CN region
+  server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: true
-  betterPerformance: false
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
@@ -736,11 +738,11 @@ firestore:
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: user
+  total_visitors_icon: fa fa-user
   total_views: true
-  total_views_icon: eye
+  total_views_icon: fa fa-eye
   post_views: true
-  post_views_icon: eye
+  post_views_icon: fa fa-eye
 
 
 # ---------------------------------------------------------------
@@ -909,9 +911,9 @@ vendors:
   anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
   # anime:
 
-  # Internal version: 4.7.0
-  fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  # Internal version: 5.13.0
+  fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
+  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
   # fontawesome:
 
   # MathJax
@@ -987,7 +989,7 @@ vendors:
 
   # Mermaid
   mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
-  # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.2/mermaid.min.js
+  # mermaid: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js
   # mermaid:
 
   # Internal version: 1.2.1
