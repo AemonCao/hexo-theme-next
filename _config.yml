@@ -125,8 +125,8 @@ darkmode: true
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || hand-spock-o
-  about: /about/ || wheelchair-alt
+  home: / || far fa-hand-spock
+  about: /about/ || fab fa-accessible-icon
   # tags: /tags/ || tags
   # categories: /categories/ || th
   # archives: /archives/ || archive
@@ -186,11 +186,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/AemonCao || github
-  E-Mail: mailto:bot960528@gmail.com || envelope
-  Telegram: https://t.me/Aemon_Cao || telegram
-  RSS: /rss2.xml || rss-square
-  Atom: /atom.xml || rss-square
+  GitHub: https://github.com/AemonCao || fab fa-github
+  E-Mail: mailto:bot960528@gmail.com || far fa-envelope
+  Telegram: https://t.me/Aemon_Cao || fab fa-telegram
+  RSS: /rss2.xml || fas fa-rss-square
+  Atom: /atom.xml || fas fa-rss-square
   # Reddit: https://www.reddit.com/user/Aemon7  || reddit
   # Weibo: https://weibo.com/yourname || weibo
   # Google: https://plus.google.com/yourname || google
