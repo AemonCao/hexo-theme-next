@@ -188,7 +188,7 @@ site_state: true
 social:
   GitHub: https://github.com/AemonCao || fab fa-github
   E-Mail: mailto:bot960528@gmail.com || far fa-envelope
-  Telegram: https://t.me/Aemon_Cao || fab fa-telegram
+  # Telegram: https://t.me/Aemon_Cao || fab fa-telegram
   RSS: /rss2.xml || fas fa-rss-square
   Atom: /atom.xml || fas fa-rss-square
   # Reddit: https://www.reddit.com/user/Aemon7  || reddit
